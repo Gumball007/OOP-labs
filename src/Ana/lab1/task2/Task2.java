@@ -3,7 +3,7 @@ package Ana.lab1.task2;
 public class Task2 {
     public static void main(String[] args) {
         Student student1 = new Student("Ana", 20, 9);
-        Student student2 = new Student("Cristian", 19,10);
+        Student student2 = new Student("Cristian", 19, 10);
         Student student3 = new Student("Viorel", 21, 7);
         Student student4 = new Student("Iurie", 20, 10);
         Student student5 = new Student("Nicoleta", 20, 10);
@@ -27,15 +27,15 @@ public class Task2 {
         university1.foundationYear = "1945";
         university1.students = new Student[]{student7, student8, student9};
 
-        University[] universities ={university1, university2, university3};
+        University[] universities = {university1, university2, university3};
 
-        double universityMean() {
-            double mean1 = 0;
-            for (University universities1 : universities) {
-                mean1 += universities1.averageMark();
-            }
-            return mean1 / universities.length;
+
+        double mean = 0;
+        for (University uni : universities) {
+            mean += uni.averageMark();
         }
+        System.out.println("Mean: " + mean / universities.length);
 
     }
 }
+
