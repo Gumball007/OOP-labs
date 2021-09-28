@@ -18,14 +18,14 @@ public class Task2 {
         university1.students = new Student[]{student1, student2, student3};
 
         University university2 = new University();
-        university1.name = "USM";
-        university1.foundationYear = "1978";
-        university1.students = new Student[]{student4, student5, student6};
+        university2.name = "USM";
+        university2.foundationYear = "1978";
+        university2.students = new Student[]{student4, student5, student6};
 
         University university3 = new University();
-        university1.name = "USMF";
-        university1.foundationYear = "1945";
-        university1.students = new Student[]{student7, student8, student9};
+        university3.name = "USMF";
+        university3.foundationYear = "1945";
+        university3.students = new Student[]{student7, student8, student9};
 
         University[] universities = {university1, university2, university3};
 
