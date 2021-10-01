@@ -3,12 +3,12 @@
 
   <div align="center">
     <h3>OPP Laboratory Works</h3>
-    <h4>by Corolețchi Ana</h4>
+    <h3>by Corolețchi Ana</h4>
   <br/ >
   </div>
 </p>
 
-This repository contains homework assignments and laboratory works for the **OOP**.
+This repository contains laboratory works for the **OOP**.
 
 All the solutions are written in **Java**.
 
