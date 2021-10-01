@@ -11,9 +11,10 @@
 
 This repository contains homework assignments and laboratory works for the **OOP**.
 
+All the solutions are written in **Java**.
+
 Teacher **Popa Dorin**.
 
-All the solutions are written in **Java**.
 
 ## Contact
 
