@@ -1,9 +1,4 @@
 
-<p align="center">
-  <a>
-    <img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png" alt="Logo" width="160" height="160">
-  </a>
-
 <h3 align="center">FCIM FAF-203</h3>
 
   <div align="center">
