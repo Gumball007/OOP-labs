@@ -14,8 +14,9 @@ All the solutions are written in **Java**.
 
 Teacher **Popa Dorin**.
 
+##
 [:heavy_check_mark: Laboratory work 1](https://github.com/Gumball007/oop-labs/tree/main/src/Ana/lab1)
-
+##
 
 
 ## Contact

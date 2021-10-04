@@ -24,9 +24,7 @@ public class Task1 {
         System.out.println("The volume of the Box3 is: " + Box1.Volume() + " cm^3" );
 
         System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
-
-
-
+        
     }
 }
 
