@@ -1,4 +1,4 @@
-package Ana.lab2;
+package Ana.lab2.task1;
 
 //theBox class
 
