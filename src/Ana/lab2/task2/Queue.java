@@ -36,25 +36,30 @@ public class Queue {
 
     public void push(int value) {
         Node node = new Node(value);
-        if (this.tail == null) {
-            this.head = this.tail = node;
+        if (Full()) {
+            System.out.println("Queue is full");
             return;
         }
-            this.tail.next = node;
-            this.tail = node;
+        if (this.tail == null) {
+            this.head = this.tail = node;
+            size++;
+            return;
+        }
+        this.tail.next = node;
+        this.tail = node;
+        size++;
+    }
 
-}
-
-    public int pop()
-    {
+    public void pop() {
         if (this.head == null)
-            return 0;
+            return;
         Node node = this.head;
         this.head = this.head.next;
-        if (this.head == null){
+        if (this.head == null) {
             this.tail = null;
-    }
-        return node.value;
+            size--;
+        }
+        size--;
     }
 
 }
