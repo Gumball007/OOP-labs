@@ -2,7 +2,6 @@
 
 #### TO DO:
 
-
 **Basic Level** (mark 5 || 6):
 
 1. Create a program where you should have a huge text (hardcoded in a variable) and it should prompt in console the number of sentences and words of this text.
