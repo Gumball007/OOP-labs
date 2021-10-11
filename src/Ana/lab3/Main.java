@@ -9,7 +9,7 @@ public class Main {
         System.out.println("The number of words in this text are : " + WordCount(string));
         System.out.println("The number of letters in this text are : " + string.length());
         CharacterCount(string);
-
+        LongestWord(string);
     }
 }
 

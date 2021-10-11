@@ -38,6 +38,15 @@ public class Manipulation {
         System.out.println("The number of consonants in this text are : " + consonant);
     }
 
+    static void LongestWord(String str) {
+        String[] word = str.split(" ");
+        String longword = " ";
+        for (String w : word) {
+            if (w.length() >= longword.length())
+                longword = w;
+        }
+        System.out.println("The longest word in this text is: " + longword);
+    }
 }
 
 
