@@ -7,7 +7,7 @@ public class Manipulation {
         char[] ch = new char[str.length()];
         for (int i = 0; i < str.length(); i++) {
             ch[i] = str.charAt(i);
-            if (((i > 0) && (ch[i] != '.') && (ch[i - 1] == '.')) || ((ch[0] != '.') && (i == 0)))
+            if (i > 0 && (ch[i] != '.' || ch[i] != '?' || ch[i] != '!') && (ch[i - 1] == '.' || ch[i - 1] == '?' || ch[i - 1] == '!') || i == 0)
                 counting1++;
         }
         return counting1;
