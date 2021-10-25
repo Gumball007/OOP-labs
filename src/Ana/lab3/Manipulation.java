@@ -48,5 +48,3 @@ public class Manipulation {
         System.out.println("The longest word in this text is: " + longword);
     }
 }
-
-
