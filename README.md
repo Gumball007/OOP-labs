@@ -27,6 +27,8 @@ Teacher **Popa Dorin**.
 
 [:heavy_check_mark: Laboratory work 6](https://github.com/Gumball007/oop-labs/tree/main/src/Ana/lab6)
 
+[:heavy_check_mark: Laboratory work 7](https://github.com/Gumball007/oop-labs/tree/main/src/Ana/lab7)
+
 ## Contact
 
 My email: `ana.coroletchi@isa.utm.md`. You can reach me anytime c:
