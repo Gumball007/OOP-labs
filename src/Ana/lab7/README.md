@@ -9,7 +9,7 @@
 
 3. Implement the following child classes of Figure - Square, Rectangle, Triangle. (Each one is forced to implement the getArea ad getPerimeter methods).
 
-In main: create by an object of each type of Figure and put all of them in a array of Figures.
+In main: create by an object of each type of Figure and put all of them in an array of Figures.
 
 **Medium Level** (mark 7 || 8):
 4. Create a class FigureController which has a method which takes as parameter a list of Figures and return the one with the biggest area (It means you need first to create a list of figures).
