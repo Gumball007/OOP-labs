@@ -23,7 +23,7 @@ Teacher **Popa Dorin**.
 
 [:heavy_check_mark: Laboratory work 4](https://github.com/Gumball007/oop-labs/tree/main/src/Ana/lab4)
 
-[:heavy_check_mark: Laboratory work 5](https://github.com/Gumball0007//oop-labs/tree/main/src/Ana/lab5)
+[:heavy_check_mark: Laboratory work 5](https://github.com/Gumball0007/oop-labs/tree/main/src/Ana/lab5)
 
 [:heavy_check_mark: Laboratory work 6](https://github.com/Gumball007/oop-labs/tree/main/src/Ana/lab6)
 
