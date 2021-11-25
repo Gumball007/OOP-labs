@@ -10,9 +10,11 @@
 3. All the inputs should allow to write any symbol from the keyboard. (The numeric values should be parsed in Java, PS. All formatting errors should be caught)
 
 **Medium Level** (mark 7 || 8):
+
 4. You should catch the errors from input missing values, arithmetic errors and number parsing from input values.
 
 **Advanced Level** (mark 9 || 10):
+
 5. Create an own exception (`UnluckyException` which should extend from `Exception`).
 
 6. After knowing the values for the second input (divisor), you should throw an `UnluckyException` in case its value is 13.
