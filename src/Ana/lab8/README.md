@@ -18,5 +18,6 @@ In main: create by an object of each type of GeometricBody and put all of them i
 6. In main call the method from this `GeometricBodyController` and give as parameter the list of bodies created in task1 and print the result in console.
 
 **Advanced Level** (mark 9 || 10):
+
 7. Change the abstract class `GeometricBody` to an interface and resolve any errors if occurred.
 
