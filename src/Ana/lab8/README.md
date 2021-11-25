@@ -2,6 +2,7 @@
 
 #### TO DO:
 **Basic Level** (mark 5 || 6):
+
 1. Implement the following class hierarchy and define as explained the objects:
 
 2. Base Class GeometricBody with the following abstract methods - `getSurface()`, `getVolume()` which should return the surface and the volume of some figure.
@@ -11,6 +12,7 @@
 In main: create by an object of each type of GeometricBody and put all of them in an array of `GeometricBody`'s.
 
 **Medium Level** (mark 7 || 8):
+
 4. Create a class `GeometricBodyController` which has a method which gets as parameter a list of GeometricBody's and return the one with the biggest Volume.
 
 5. Create another method which does the same but that gives the body with the biggest Surface.
