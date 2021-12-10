@@ -20,7 +20,6 @@ class calculatorFrame extends JFrame implements ActionListener {
     JButton divideButton = new JButton("Divide");
     JButton resetButton = new JButton("Reset");
 
-
     calculatorFrame() {
         setLayoutManager();
         setLocationAndSize();
@@ -88,21 +87,27 @@ class calculatorFrame extends JFrame implements ActionListener {
         int a = Integer.parseInt(s1);
         int b = Integer.parseInt(s2);
         int c = 0;
+        if (number2Field.getText().equals("13")) {
+            JOptionPane.showMessageDialog(this, "13 is unlucky", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+        if (b == 0) {
+            JOptionPane.showMessageDialog(this, "Division by 0 is not allowed", "Error", JOptionPane.ERROR_MESSAGE);
+        }
         if (e.getSource() == divideButton) {
             c = a / b;
         }
         String Result = String.valueOf(c);
         resultField.setText(Result);
     }
-}
 
-public class Calculator {
-    public static void main(String[] a) {
-        calculatorFrame frame = new calculatorFrame();
-        frame.setVisible(true);
-        frame.setBounds(5, 0, 370, 370);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setResizable(false);
+    public static class Calculator {
+        public static void main(String[] a) {
+            calculatorFrame frame = new calculatorFrame();
+            frame.setVisible(true);
+            frame.setBounds(5, 0, 370, 370);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setResizable(false);
+        }
     }
 }
 
